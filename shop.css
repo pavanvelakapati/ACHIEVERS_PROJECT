@@ -50,7 +50,7 @@ header nav ul li a{
     justify-content: center;
     margin-left: 80px;
     margin-right: 80px;
-    grid-gap:20px;
+    grid-gap:30px;
     padding-bottom: 20px;
     margin-top: 80px;
     margin-bottom: 80px; 
@@ -62,7 +62,7 @@ header nav ul li a{
 .plus{
     position: relative;
     left: 86%;
-    top: -6%;
+    top: 88%;
 }
 h3{
     margin-left:10px;
@@ -82,7 +82,7 @@ span{
     margin-left: 10px;
 }
 p{
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .Armsofa-2{
     height: 366px;
@@ -128,5 +128,5 @@ ul li{
     margin-inline-start: 40px;
 }
 .titles .Contact .Contact{
-    margin-top: 25px;
+    margin-top: 35px;
 }
