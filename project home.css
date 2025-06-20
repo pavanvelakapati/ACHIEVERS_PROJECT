@@ -1,0 +1,644 @@
+* {
+    box-sizing: border-box;
+    overflow-x: clip;
+}
+
+header {
+    display: flex;
+    padding: 15px 100px;
+    justify-content: space-between;
+    box-shadow: 0px 4px 7px rgba(128, 128, 128, 0.534);
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+header{
+  position: fixed;
+  top:0px;
+  width: 100%;
+  opacity: 1;
+  z-index: 3;
+
+}
+
+header img {
+    max-width: 250px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+header nav ul li a:hover {
+    color: rgb(56, 143, 243);
+}
+
+header nav i {
+    font-size: 19.2px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+header nav i:hover {
+    color: blueviolet;
+}
+.carousel-item {
+      height: 365px;
+      margin-left: 52px;
+      margin-top: 46px;
+    }
+.carousel-item img {
+      height: 80%;
+      object-fit: cover;
+      position: relative;
+      left: 750px;
+      top: 100px;
+    }
+.content{
+  position: absolute;
+  bottom: 3%;
+  left: 13%;
+  color: black;
+  text-align: left;
+  text-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+}
+.content p{
+    color: gray;
+}
+cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    text-align: center;
+    margin: 100px 50px 50px;
+}
+
+.car{
+    background-color: bisque;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.car i{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgba(240, 255, 255, 0.653);
+    margin-bottom: 20px;
+    font-size: 28.8px;
+}
+.car h2{
+    margin-bottom: 15px;
+    font-size: 20.8px;
+}
+.car p {
+    font-family: sans-serif;
+    font-size: 14.4px;
+    line-height: 1.5;
+}
+.car { background-color: bisque; }
+.pay{
+    background-color: bisque;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.pay i{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgba(240, 255, 255, 0.653);
+    margin-bottom: 20px;
+    font-size: 28.8px;
+}
+.pay h2{
+    margin-bottom: 15px;
+    font-size: 20.8px;
+}
+.pay p{
+     font-family: sans-serif;
+    font-size: 14.4px;
+    line-height: 1.5;
+}
+.pay { background-color: lightblue; }
+.shield {
+    background-color: bisque;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.shield i{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgba(240, 255, 255, 0.653);
+    margin-bottom: 20px;
+    font-size: 28.8px;
+}
+.shield h2{
+    margin-bottom: 15px;
+    font-size: 20.8px;
+}
+.shield p{
+    font-family: sans-serif;
+    font-size: 14.4px;
+    line-height: 1.5;
+}
+.shield { background-color: lightgreen; }
+.headphones{
+    background-color: bisque;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.headphones i {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgba(240, 255, 255, 0.653);
+    margin-bottom: 20px;
+    font-size: 28.8px;
+}
+.headphones h2 {
+    margin-bottom: 15px;
+    font-size: 20.8px;
+}
+
+.headphones p {
+    font-family: sans-serif;
+    font-size: 14.4px;
+    line-height: 1.5;
+}
+.headphones { background-color: lavender; }
+
+.big {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 0 50px;
+    padding-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.New {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 0 50px;
+    padding-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.best {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.container-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 0 50px;
+    padding-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.discount-badge {
+    position: absolute;
+    top: 18px;
+    left: 13px;
+    background-color: darkblue; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+.sofa-1{
+    border: 1px solid #eee;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    position: relative;
+}
+.phone-1 {
+    border: 1px solid #eee;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    position: relative;
+}
+.Armsofa-1 {
+    border: 1px solid #eee;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    position: relative;
+} 
+
+.sofa-1 img, .phone-1 img, .Armsofa-1 img, .Armsofa-2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.sofa-1, .phone-1, .phone-2, .Armsofa-1, .Armsofa-2 {
+    position: relative;
+}
+
+
+.fav-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.fav-icon i {
+    color: black;
+    font-size: 16px;
+    pointer-events: none; 
+    border:5px;
+}
+.sofa-1:hover .fav-icon,
+.phone-1:hover .fav-icon,
+.phone-2:hover .fav-icon,
+.Armsofa-1:hover .fav-icon,
+.Armsofa-2:hover .fav-icon {
+    opacity: 1;
+}
+
+.double {
+    margin-top: 0;
+}
+
+.sofa-1 h3{
+    margin: 10px 0;
+    font-size: 17.6px;
+}
+.phone-1 h3{
+    margin: 10px 0;
+    font-size: 17.6px;
+}
+ .Armsofa-1 h3{
+    margin: 10px 0;
+    font-size: 17.6px;
+}
+
+.sofa-1 p{
+    font-family: sans-serif;
+    font-size: 23.2px;
+    font-weight:bold;
+    font-family: sans-serif;
+    color: #333;
+    margin: 10px 0;
+}
+.phone-1 p{
+    font-family: sans-serif;
+    font-size: 23.2px;
+    font-weight:bold;
+    font-family: sans-serif;
+    color: #333;
+    margin: 10px 0;
+}
+.Armsofa-1 p{
+    font-family: sans-serif;
+    font-size: 23.2px;
+    font-weight:bold;
+    font-family: sans-serif;
+    color: #333;
+    margin: 10px 0;
+} 
+.phone-2 p {
+    font-family: sans-serif;
+    font-size: 23.2px;
+    font-weight:bold;
+    color: #333;
+    margin: 10px 0;
+}
+.Armsofa-2 p{
+    font-family: sans-serif;
+    font-size: 23.2px;
+    font-weight:bold;
+    color: #333;
+    margin: 10px 0;
+} 
+span {
+    color: gold;
+    margin-right: 5px;
+    font-size: 14.4px;
+}
+
+.plus{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 17.6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.plus-1 {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 17.6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.plus:hover {
+    color: white;
+    background-color: rgb(5, 5, 245);
+}
+.plus-1:hover {
+    color: #fbfafd;
+    background-color: rgb(2, 2, 243);
+}
+
+.phone-2{
+    border: 1px solid #eee;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    position: relative;
+    left:342px;
+    height: auto;
+    width: 350px;
+    margin: 0;
+}
+.Armsofa-2 {
+    border: 1px solid #eee;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    position: relative;
+    left:230px;
+    height:auto ;
+    width: 335px;
+    margin: 0;
+
+}
+footer {
+    display: grid;
+    grid-template-columns: 15% 75%;
+    background-color: rgb(18 51 108);
+    padding-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+h2 {
+    color: white;
+}
+
+.titles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-inline-start: 50px;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: center;
+}
+
+footer div ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li {
+    color: rgb(182, 181, 181);
+    margin-bottom: 8px;
+}
+
+.para {
+    color: rgb(182, 181, 181);
+}
+
+.sub-titles {
+    margin-inline-start: 35px;
+    margin-bottom: 15px;
+}
+@media (max-width: 1024px) {
+    header {
+        padding: 10px 50px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    cards {
+        margin-top: 100px;
+        margin-inline: 20px;
+        gap: 15px;
+    }
+
+    .car, .pay, .shield, .headphones {
+        padding: 40px 15px;
+    }
+
+    .container-1, .container-2, .container-3 {
+        margin: 0 20px;
+        gap: 20px;
+    }
+
+    footer {
+        padding-left: 5%;
+    }
+
+    .titles {
+        margin-inline-start: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    header img {
+        margin-bottom: 15px;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    header nav i {
+        margin: 0 5px;
+    }
+
+    cards {
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+        margin-inline: 15px;
+    }
+
+    .car, .pay, .shield, .headphones {
+        padding: 30px 15px;
+    }
+
+    .container-1, .container-2, .container-3 {
+        grid-template-columns: 1fr;
+        margin: 0 15px;
+        gap: 15px;
+    }
+
+    .sofa-1, .phone-1, .Armsofa-1, .phone-2, .Armsofa-2 {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .sofa-1 h3, .phone-1 h3, .Armsofa-1 h3 {
+        font-size: 16px;
+    }
+
+    .sofa-1 p, .phone-1 p, .Armsofa-1 p {
+        font-size: 17.6px;
+    }
+
+    .plus, .plus-1 {
+        position: static;
+        margin-top: 15px;
+        display: inline-block;
+        left: auto;
+        right: auto;
+        bottom: auto;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .Contact {
+        margin-bottom: 30px;
+    }
+
+    .titles {
+        grid-template-columns: 1fr;
+        margin-inline-start: 0;
+        text-align: center;
+    }
+
+    .sub-titles {
+        margin-inline-start: 0;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    footer div ul {
+        padding: 0;
+    }
+
+    footer div ul li {
+        list-style-type: none;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    header nav i {
+        font-size: 16px;
+    }
+
+    cards {
+        margin-inline: 10px;
+        gap: 10px;
+    }
+
+    .car, .pay, .shield, .headphones {
+        padding: 25px 10px;
+    }
+
+    .car h2, .pay h2, .shield h2, .headphones h2 {
+        font-size: 17.6px;
+    }
+
+    .car i, .pay i, .shield i, .headphones i {
+        font-size: 24px;
+        padding: 12px;
+    }
+
+    .container-1, .container-2, .container-3 {
+        margin: 0 10px;
+        gap: 10px;
+    }
+
+    .sofa-1 h3, .phone-1 h3, .Armsofa-1 h3 {
+        font-size: 15.2px;
+    }
+
+    .sofa-1 p, .phone-1 p, .Armsofa-1 p {
+        font-size: 16px;
+    }
+
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .titles {
+        font-size: 14.4px;
+    }
+
+    .para {
+        font-size: 13.6;
+    }
+}
