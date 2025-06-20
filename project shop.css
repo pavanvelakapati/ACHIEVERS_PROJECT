@@ -3,6 +3,7 @@
     margin: 0px;
     overflow-x: clip;
 }
+
 header {
     display: flex;
     padding-inline-start: 100px;
@@ -12,6 +13,15 @@ header {
     background-color: white;
     position: relative;
 }
+header{
+  position: fixed;
+  top:0px;
+  width: 100%;
+  opacity: 1;
+  z-index: 3;
+
+}
+
 nav ul {
     display: flex;
     padding-inline-end: 100px;
@@ -20,6 +30,7 @@ nav ul {
     text-decoration: none;
     padding-top: 10px;
 }
+
 header nav ul li a {
     text-decoration: none;
     color: black;
@@ -33,12 +44,14 @@ header nav ul li a:hover {
     height: 191px;
     object-fit: cover;
 }
+
 .container {
     width: 100%;
     height: 200px;
     position: relative;
     margin-bottom: 100px;
 }
+
 .container h2 {
     position: absolute;
     left: 50%;
@@ -46,6 +59,7 @@ header nav ul li a:hover {
     transform: translateX(-50%);
     color: white;
 }
+
 .container-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -61,6 +75,7 @@ header nav ul li a:hover {
 .double {
     margin-top: 100px;
 }
+
 .filter-search-section {
     display: flex; 
     justify-content: flex-start; 
@@ -77,6 +92,7 @@ header nav ul li a:hover {
     background-color: #004b69; 
     box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
     width:250px;
+    
 }
 .filter-container{
    position: absolute; 
@@ -139,6 +155,7 @@ select::-ms-expand {
 .search-input::placeholder {
     color: #999; 
 }
+
 .search-button {
     background-color: transparent; 
     border: none; 
@@ -149,13 +166,16 @@ select::-ms-expand {
     align-items: center;
     justify-content: center;
 }
+
 .search-button i {
     color: #555; 
     font-size: 18px; 
 }
+
 .search-button:hover i {
     color: #007bff; 
 }
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -204,13 +224,16 @@ h3 {
     height: auto;
     display: block;
 }
+
 span {
     color: gold;
     margin-left: 10px;
 }
+
 p {
     margin-left: 10px;
 }
+
 .Armsofa-2 {
     border: 1px solid grey;
     box-shadow: 2px 3px 2px grey;
@@ -243,10 +266,12 @@ p {
 }
 .Armsofa-1{
     position: relative;
+
 }
  .Armsofa-2{
     position: relative;
     left:190px;
+
 }
 .Armsofa-1 p{
     font-family: sans-serif;
@@ -263,6 +288,8 @@ p {
     color: #333;
     margin: 10px 0;
 } 
+
+
 .fav-icon {
     position: absolute;
     top: 12px;
@@ -275,6 +302,7 @@ p {
     transition: opacity 0.3s ease;
     z-index: 2;
 }
+
 .fav-icon i {
     color: #181717;
     font-size: 16px;
@@ -285,6 +313,7 @@ p {
 .Armsofa-2:hover .fav-icon {
     opacity: 1;
 }
+
 footer {
     display: grid;
     grid-template-columns: 15% 75%;
@@ -293,9 +322,11 @@ footer {
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
 h2 {
     color: white;
 }
+
 .titles {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -304,47 +335,58 @@ h2 {
     text-align: start;
     justify-content: center;
 }
+
 footer div ul li a {
     list-style: none;
     text-decoration: none;
 }
+
 ul li {
     color: rgb(182, 181, 181);
     margin-bottom: 8px;
 }
+
 .para {
     color: rgb(182, 181, 181);
 }
+
 .sub-titles {
     margin-inline-start: 0px;
     margin-bottom: 15px;
 }
+
 @media (max-width: 1199px) {
     header {
         padding-inline-start: 50px;
     }
+
     nav ul {
         padding-inline-end: 50px;
         gap: 20px;
     }
+
     .container-3 {
         grid-template-columns: repeat(2, 1fr);
         margin-left: 100px;
         margin-right: 100px;
     }
+
     .Armsofa-2 {
         left: 132px;
         top: 0;
         width: 300px;
         height: auto;
     }
+
     footer {
         padding-left: 5%;
     }
+
     .titles {
         margin-inline-start: 20px;
     }
 }
+
 @media (max-width: 767px) {
     header {
         flex-direction: column;
@@ -352,32 +394,39 @@ ul li {
         padding-inline-end: 20px;
         padding-bottom: 10px;
     }
+
     nav ul {
         padding-inline-end: 0;
         justify-content: center;
         width: 100%;
         gap: 15px;
     }
+
     .container h2 {
         font-size:24px;
     }
+
     .container-3 {
         grid-template-columns: 1fr;
         margin-left: 20px;
         margin-right: 20px;
     }
+
     .Armsofa-1,
     .Armsofa-2 {
         width: auto;
     }
+
     .Armsofa-1 img,
     .Armsofa-2 img {
         width: 100%;
     }
+
     .plus {
         left: 91%;
         top: 91%;
     }
+
     footer {
         grid-template-columns: 1fr;
         padding-left: 20px;
@@ -385,65 +434,81 @@ ul li {
         padding-bottom: 50px;
         text-align: center;
     }
+
     .Contact {
         margin-bottom: 30px;
     }
+
     .titles {
         grid-template-columns: 1fr;
         margin-inline-start: 0;
         text-align: center;
     }
+
     .sub-titles {
         margin-inline-start: 0;
         margin-bottom: 10px;
         margin-top: 20px;
     }
+
     footer div ul {
         padding: 0;
     }
+
     footer div ul li {
         list-style-type: none;
     }
 }
+
 @media (max-width: 479px) {
     header {
         padding-inline-start: 10px;
         padding-inline-end: 10px;
     }
+
     header img {
         max-width: 120px;
     }
+
     nav ul {
         flex-wrap: wrap;
         gap: 10px;
         font-size: 14.4px;
     }
+
     .container h2 {
         font-size: 19.2;
         top: 35%;
     }
+
     .container-3 {
         margin-left: 10px;
         margin-right: 10px;
         grid-gap: 15px;
     }
+
     .plus {
         left: 88%;
         top: 90%;
     }
+
     h3 {
         font-size: 16px;
     }
+
     p {
         font-size: 14.4px;
     }
+
     footer {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .titles {
         font-size: 14.4px;
     }
+
     .para {
         font-size: 13.6;
     }
