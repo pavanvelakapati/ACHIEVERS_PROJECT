@@ -3,7 +3,6 @@
     margin: 0px;
     overflow-x: clip;
 }
-
 header {
     display: flex;
     padding-inline-start: 100px;
@@ -24,7 +23,7 @@ header{
 
 nav ul {
     display: flex;
-    padding-inline-end: 100px;
+    padding-inline-end: 206px;
     gap: 30px;
     list-style: none;
     text-decoration: none;
