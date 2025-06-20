@@ -67,7 +67,7 @@ header nav i:hover {
       left: 750px;
       top: 100px;
     }
-.content{
+.content-1{
   position: absolute;
   bottom: 3%;
   left: 13%;
@@ -77,10 +77,10 @@ header nav i:hover {
   padding: 10px;
   border-radius: 10px;
 }
-.content p{
+.content-1 p{
     color: black;
 }
-.content h2{
+.content-1 h1{
     color: black;
 }
 cards {
@@ -426,6 +426,9 @@ footer {
     padding-top: 50px;
     padding-bottom: 100px;
 }
+.Contact h2{
+    color:white;
+}
 
 h2 {
     color: white;
@@ -457,6 +460,7 @@ ul li {
 .sub-titles {
     margin-inline-start: 35px;
     margin-bottom: 15px;
+    color:white;
 }
 @media (max-width: 1024px) {
     header {
@@ -488,6 +492,9 @@ ul li {
 
     .titles {
         margin-inline-start: 20px;
+    }
+    .contact h2{
+        color:white;
     }
 }
 
@@ -564,6 +571,7 @@ ul li {
 
     .Contact {
         margin-bottom: 30px;
+        color: white;
     }
 
     .titles {
