@@ -2,7 +2,6 @@
     box-sizing: border-box;
     overflow-x: clip;
 }
-
 header {
     display: flex;
     padding: 15px 100px;
@@ -34,18 +33,15 @@ nav ul {
     margin: 0;
     align-items: center;
 }
-
 header nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 16px;
     white-space: nowrap;
 }
-
 header nav ul li a:hover {
     color: rgb(56, 143, 243);
 }
-
 header nav i {
     font-size: 19.2px;
     cursor: pointer;
