@@ -9,6 +9,14 @@ header{
     background-color: rgb(255, 255, 255);
     padding-inline-start: 100px;  
 }
+header{
+  position: fixed;
+  top:0px;
+  width: 100%;
+  opacity: 1;
+  z-index: 3;
+
+}
 div img{
     padding-block-start: 3px;
 }
