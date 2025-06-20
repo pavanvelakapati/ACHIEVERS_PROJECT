@@ -25,20 +25,22 @@ nav ul{
     padding-right: 30px;
     display: flex;
     gap: 30px;
-    padding-inline-end: 100px;
+    padding-inline-end: 206px;
     
+}
+header nav i:hover {
+    color: rgb(56, 143, 243);
 }
 ul{
     list-style: none;
 }
 header nav ul li a{
     text-decoration: none;
+    color: black;
 }
-/* .cart {
-  background-color: #1d4ed8;
-  font-weight: 700;
-} */
-
+header nav ul li a:hover {
+    color: rgb(56, 143, 243);
+}
 .cart {
   display: flex;
   justify-content: space-between;
