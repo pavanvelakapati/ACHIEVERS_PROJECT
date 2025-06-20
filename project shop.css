@@ -38,6 +38,9 @@ header nav ul li a {
 header nav ul li a:hover {
     color: rgb(56, 143, 243);
 }
+header nav i:hover {
+    color: rgb(56, 143, 243);
+}
 
 .banner {
     width: 100%;
