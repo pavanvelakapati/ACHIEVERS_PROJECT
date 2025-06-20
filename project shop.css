@@ -54,8 +54,8 @@ header nav ul li a:hover {
 
 .container h2 {
     position: absolute;
-    left: 50%;
-    top: 41%;
+    left: 52%;
+    top: 71%;
     transform: translateX(-50%);
     color: white;
 }
@@ -97,7 +97,7 @@ header nav ul li a:hover {
 .filter-container{
    position: absolute; 
    left: 116px;
-    top: 306px;
+    top: 225px;
 }
 .sr-only{
     text-decoration-color: rgb(5, 107, 196);
@@ -139,7 +139,7 @@ select::-ms-expand {
 .search-container{
     position: absolute; 
    left: 563px;
-    top: 309px;
+    top: 227px;
     
 }
 
