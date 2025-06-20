@@ -42,8 +42,9 @@ header nav ul li a{
 .cart {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 32px;
   background-color: #e6f9ff7f;
+  margin-top: 92px;
 }
 
 .cart-items {
@@ -55,7 +56,7 @@ header nav ul li a{
   display: flex;
   justify-content: space-between;
   background: #fff;
-  padding: 16px;
+  padding: 2px;
   margin-bottom: 16px;
   align-items: center;
   border-radius: 8px;
